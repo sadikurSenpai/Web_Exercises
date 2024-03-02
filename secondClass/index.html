@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul type="square">
+        <li>
+        <p>Pen</p>
+            <ol type="i">
+                <li>Red</li>
+                <li>Green</li>
+                <li>Blue</li>
+            </ol>
+        </li>
+        <li>
+        <p>Price</p>
+            <ol type="a">
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+            </ol>
+        </li>
+    </ul>
+
+    <dl>
+        <dt><a href="Routine.html">CSE-302</a></dt>
+        <dd>- Web Programming Lab</dd>
+    </dl>
+
+    <table border="2" cellspacing="0" cellpading="10">
+        <marquee>Welcome</marquee>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>211902020</td>
+            <td>Md. Shadikur Rahman Sheam</td>
+            <td>CSE</td>
+            <td>CSE-302</td>
+        </tr>
+        <tr>
+            <td>211902003</td>
+            <td>Md. Roman Nihal</td>
+            <td>CSE</td>
+            <td>CSE-302</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Md. Fahad Sarkar</td>
+            <td>CSE</td>
+            <td>CSE-302</td>
+        </tr>
+    </table>
+<br>
+<br>
+<br>
+
+<h1> Registration Form</h1>
+<form>
+<input type="image" src="image/icon2.png" height="150" width="150"><br><br>
+<label for="A">Student Name:</label><input type="text" id="A" name="fname" size="20" value="Tanpia Tasnim" ><br><br>
+<label for="B">Student ID: </label><input type = "number" id="B" size = "20" placeholder="Enter a number"><br><br>
+<label for="C">Email: </label><input type="email" id="C" size="20" placeholder="Enter Your Email" required><br><br>
+<label for="D">Username: </label><input type="text" id="D" size="20" maxlength="15" placeholder ="Enter UserName" required><br><br>
+<label for="E">Password: </label><input type="password" id="E" size="20" placeholder="Enter Password"><br><br>
+<label for="F">Date of Birth: </label><input type ="date" id="F" size= "20" placeholder="Enter Date of Birth"><br>Gender: <br>
+<input type="radio" name="gender" value="M">Male<br>
+<input type="radio" name="gender" value="F">Female<br>Language: <br>
+<input type="checkbox" name="language" value="M" >Bengali<br>
+<input type="checkbox" name="language" value="F">English<br>
+
+Country: <br>
+<select name="country">
+<option>(Please select your Country)</option>
+
+<option value="B">Bangladesh</option>
+<option value="I">India</option>
+</select><br><br>
+<label for="G">Address:</label><br>
+<textarea rows="5" cols="30" id="G" placeholder="Enter Your
+
+Present Address"></textarea><br><br>
+
+Attach your Documents:<br>
+<input type="file" name="Documents"><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+
+<br><br><br><br>
+
+<form action="#">
+    <label for="sName">Student Name:</label>
+        <input type="text" value="Tanpia Tasnim" id="sName" required><br><br>
+    <label for="sId">Student ID:</label>
+        <input type="number" placeholder="Enter a number" id="sId" required><br><br>
+    <label for="sMail">Email:</label>
+        <input type="email" placeholder="Enter Your Email" id="sMail"><br><br>
+    <label for="userName">Username:</label>
+        <input type="text" placeholder="Enter UserName" id="userName" required><br><br>
+    <label for="pass">Password:</label>
+        <input id="pass" type="password" placeholder="Enter Password" required><br><br>
+    <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required>
+    <br>Gender: <br>
+    <label for="sMale"><input type="radio" name="gender" id="sMale" value="m">Male </label>
+    <br>
+    <label for="sFemale"><input type="radio" name="gender" id="sFemale" value="m">Female </label><br>
+
+</form>
+
+</body>
+</html>
