@@ -3,71 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Routine</title>
 </head>
 <body>
-    <table border="1" align="center">
-        <caption>Student Information</caption>
-        <tr align="center">
-            <th>Student ID</th>
-            <th>Name</th>
-            <th>Department</th>
-            <th>Course</th>
+    <div align="center">
+        <h1>Class Routine</h1>
+        <h2>Teacher Name : Mahjabin Rahman Oishe</h2>
+        <h3>Department of Computer Science & Engineering</h3>
+        <h2>Green University of Bangladesh</h2>
+    </div>
+
+    <table border="1" align="center" cellspacing = 1 >
+        <tr>
+            <th>Time</th>
+            <th rowspan="2">08.30-10.00</th>
+            <th rowspan="2">10.00-11.30</th>
+            <th rowspan="2">11.30-01.00</th>
+            <th rowspan="2">01.30-03.00</th>
+            <th rowspan="2">03.00-04.30</th>
+            <th rowspan="2">04.30-06.00</th>
         </tr>
-        <tr align="center">
-            <td>212002001</td>
-            <td>Mr. A</td>
-            <td>CSE</td>
-            <td>CSE-302</td>
-        </tr>
-    </table>
-<br>
-<br>
-    <table border="1" width="500" align="center">
-        <caption><b>Student Information of CSE Department</b></caption>
-        <tr align="center">
-            <th colspan="4">CSE Department</th>
-        </tr>
-        <tr align="center">
-            <th rowspan="2">Student ID</th>
-            <th rowspan="2">Name</th>
-            <th colspan="2">Program</th>
-        </tr>
-        <tr align="center">
-            <td>Day</td>
-            <td>Evening</td>
-        </tr>
-        <tr align="center">
-            <td>211002001</td>
-            <td>Ms. P</td>
-            <td>211D1</td>
-            <td>211EA</td>
+        <tr>
+            <th>Day</th>
         </tr>
         
+        <tr align="center">
+            <th>Monday</th>
+            <td colspan="2">CSE 300 <br>B-1005 </td>
+            <td colspan="2">Counseling Hour</td>
+            <td colspan="2">Various committee meetings </td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td></td>
+            <td>Counseling Hour</td>
+            <td colspan="2">Meeting with Thesis/Project Students</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr align="center">
+            <th>Wednesday</th>
+            <td colspan="2">CSE 201 <br>B-411 </td>
+            <td colspan="2">CSE 301 <br>D-702</td>
+            <td colspan="2">Various committee meetings </td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td></td>
+            <td></td>
+            <td colspan="2">Meeting with Thesis/Project Students</td>
+            <td colspan="2">Weekly AC Meeting</td>
+        </tr>
+
+        <tr align="center">
+            <th>Friday</th>
+            <td colspan="2">CSE 312 <br>B-802 </td>
+            <td colspan="2">CSE 311 <br>D-411</td>
+            <td colspan="2">Counseling Time </td>
+        </tr>
+            <!-- <th>Monday</th>
+            <td>CSE 300 B-1005 </td>
+            <td>Counseling Hour </td>
+            <td>Various committee meetings </td> -->
     </table>
 
+    <h1>Login Form</h1>
+    <form action="#">
+        <label for="userName">UserName :  <input type="text" name="" id="userName" placeholder="Enter Your Username"> </label>
+        <br>
+        <br>
+        <label for="pass"> Password : <input type="password" name="" id="pass" placeholder="Enter Your Password"> </label>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
 
-    <table border="1" width="500" align="center">
-        <caption><b>Student Information of CSE Department</b></caption>
-        <tr align="center">
-            <th colspan="4">CSE Department</th>
-        </tr>
-        <tr align="center">
-            <th rowspan="2">Student ID</th>
-            <th rowspan="2">Name</th>
-            <th colspan="2">Program</th>
-        </tr>
-        <tr align="center">
-            <td>Day</td>
-            <td>Evening</td>
-        </tr>
-        <tr align="center">
-            <td>211002001</td>
-            <td>Ms. P</td>
-            <td>211D1</td>
-            <td>211EA</td>
-        </tr>
-        
-    </table>
+    </form>
+
 </body>
 </html>
